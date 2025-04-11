@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return "Backend läuft!"
+    return "Backend läuft ja wirklich!"
 
 @app.route('/api/hello')
 def hello():
