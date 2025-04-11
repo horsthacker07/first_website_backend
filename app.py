@@ -10,4 +10,4 @@ def home():
 
 @app.route('/api/hello')
 def hello():
-    return jsonify(message="Hallo von Flask bei Render!")
+    return jsonify(message="Hallo von Flask bei Render, es funktioniert!")
